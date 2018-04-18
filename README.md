@@ -17,7 +17,7 @@ repository to have the transaction accepted. Incredible!
 Normally, this would be incredibly insecure and lead to terrible issues of trust that cripple the
 financial system. However, we use BLOCKCHAIN technology, so you can be sure your data is secure.
 
-To prevent double spending, the script `./check-consistency.sh` checks to make sure no net cash was
+To prevent double spending, the script `./verify-consistency.sh` checks to make sure no net cash was
 added or removed. There are only 1,000,000 units of currency in circulation. Travis-CI runs this
 script on each pull request, and requests cannot be approved without this check passing. No
 inflation!
