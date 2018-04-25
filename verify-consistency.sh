@@ -2,7 +2,7 @@
 
 TOTAL_CASH=1000000
 CURRENT_CASH=0
-FILES=$(find . -name 'cash')
+FILES=$(find . -maxdepth 1 -name 'cash' )
 for FILE in $FILES; do
     CURRENT_CASH=$(($CURRENT_CASH + $(cat $FILE)))
 done
