@@ -1,5 +1,5 @@
 # CSUA Cash: the future of CSUA micropayments
-[![travis-ci](https://travis-ci.org/mark64/CSUA-cash.svg?branch=master)](https://travis-ci.org/mark64/CSUA-cash.svg?branch=master)
+[![travis-ci](https://travis-ci.org/CSUA/CSUA-cash.svg?branch=master)](https://travis-ci.org/CSUA/CSUA-cash.svg?branch=master)
 
 The CSUA deals with a lot of physical money, which is unfortunate because the government can and
 will sell your data to the highest bidder, Facebook can track stuff, and fiat money is worthless.
